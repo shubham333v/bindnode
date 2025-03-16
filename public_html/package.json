@@ -1,0 +1,30 @@
+{
+  "scripts": {
+    "start": "node main.js",
+    "stop": "killall -9 node",
+    "build": "node build.js",
+    "full": "node build.js && node bind.js && node mini.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.21.2",
+    "mysql": "^2.18.1",
+    "node-cron": "^3.0.3",
+    "node-minify": "^3.6.0",
+    "sqlite3": "^5.1.7",
+    "uglify-js": "^3.19.3",
+    "uuid": "^10.0.0"
+  },
+  "name": "soc.kdgb",
+  "version": "1.0.0",
+  "main": "main.js",
+  "author": "",
+  "license": "ISC",
+  "directories": {
+    "doc": "doc"
+  },
+  "description": "",
+  "devDependencies": {
+    "@babel/plugin-transform-react-jsx": "^7.25.9"
+  }
+}
